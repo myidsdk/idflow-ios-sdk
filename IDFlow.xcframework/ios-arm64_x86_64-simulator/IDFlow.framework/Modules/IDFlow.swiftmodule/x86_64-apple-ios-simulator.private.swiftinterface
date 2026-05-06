@@ -78,14 +78,14 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class IDFlowDocumentConfig : ObjectiveC.NSObject {
+@objc public class IDFlowDocumentConfig : ObjectiveC.NSObject {
   @objc public var uiVariant: IDFlow.IDFlowDocumentUiVariant
   @objc public var isResident: Swift.Bool
   @objc public var detectDocumentDuringSelfie: Swift.Bool
   @objc public var countdownEnabled: Swift.Bool
   @objc public var flashlightEnabled: Swift.Bool
   @objc public var instructionEnabled: Swift.Bool
-  @objc override dynamic public init()
+  @objc public init(uiVariant: IDFlow.IDFlowDocumentUiVariant = .variant1, isResident: Swift.Bool = true, detectDocumentDuringSelfie: Swift.Bool = true, countdownEnabled: Swift.Bool = false, flashlightEnabled: Swift.Bool = true, instructionEnabled: Swift.Bool = true)
   @objc deinit
 }
 @objc public enum IDFlowDocumentUiVariant : Swift.Int {
@@ -119,7 +119,7 @@ import _SwiftConcurrencyShims
   @objc public init(message: Swift.String, code: Swift.Int)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class IDFlowFaceConfig : ObjectiveC.NSObject {
+@objc public class IDFlowFaceConfig : ObjectiveC.NSObject {
   @objc public var targetDistanceRatio: CoreFoundation.CGFloat
   @objc public var faceCropPaddingRatio: CoreFoundation.CGFloat
   @objc public var useVideoIdentification: Swift.Bool
@@ -127,7 +127,7 @@ import _SwiftConcurrencyShims
   @objc public var reasonMessageEnabled: Swift.Bool
   @objc public var countdownEnabled: Swift.Bool
   @objc public var infoboxText: Swift.String
-  @objc override dynamic public init()
+  @objc public init(targetDistanceRatio: CoreFoundation.CGFloat = 0.6, faceCropPaddingRatio: CoreFoundation.CGFloat = 0.5, useVideoIdentification: Swift.Bool = false, progressIndicatorEnabled: Swift.Bool = true, reasonMessageEnabled: Swift.Bool = true, countdownEnabled: Swift.Bool = true, infoboxText: Swift.String = "")
   @objc deinit
 }
 @objc public enum IDFlowLocale : Swift.Int {
@@ -155,11 +155,11 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class IDFlowPreviewConfig : ObjectiveC.NSObject {
+@objc public class IDFlowPreviewConfig : ObjectiveC.NSObject {
   @objc public var showDocumentFrontPreview: Swift.Bool
   @objc public var showDocumentBackPreview: Swift.Bool
   @objc public var showSelfieWithDocumentPreview: Swift.Bool
-  @objc override dynamic public init()
+  @objc public init(showDocumentFrontPreview: Swift.Bool = false, showDocumentBackPreview: Swift.Bool = false, showSelfieWithDocumentPreview: Swift.Bool = false)
   @objc deinit
 }
 @objc public class IDFlowDocumentResult : ObjectiveC.NSObject {
@@ -214,13 +214,12 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class IDFlowVideoConfig : ObjectiveC.NSObject {
+@objc public class IDFlowVideoConfig : ObjectiveC.NSObject {
   @objc public var uiVariant: IDFlow.IDFlowVideoUiVariant
   @objc public var enableMicrophone: Swift.Bool
   @objc public var enableSoundGuides: Swift.Bool
   @objc public var countdownEnabled: Swift.Bool
-  @objc public var exitConfirmationEnabled: Swift.Bool
-  @objc override dynamic public init()
+  @objc public init(uiVariant: IDFlow.IDFlowVideoUiVariant = .variant1, enableMicrophone: Swift.Bool = false, enableSoundGuides: Swift.Bool = false, countdownEnabled: Swift.Bool = true)
   @objc deinit
 }
 @objc public enum IDFlowVideoUiVariant : Swift.Int {
@@ -246,16 +245,16 @@ import _SwiftConcurrencyShims
   @objc func onCanceled()
 }
 @objc public class IDFlowConfig : ObjectiveC.NSObject {
-  @objc final public let locale: IDFlow.IDFlowLocale
-  @objc final public let entryMode: IDFlow.IDFlowEntryMode
-  @objc final public let cameraSelector: IDFlow.IDFlowCameraSelector
-  @objc final public let presentationStyle: IDFlow.IDFlowPresentationStyle
-  @objc final public let transformation: IDFlow.IDFlowTransformation
-  @objc final public let previewConfig: IDFlow.IDFlowPreviewConfig
-  @objc final public let documentConfig: IDFlow.IDFlowDocumentConfig
-  @objc final public let faceConfig: IDFlow.IDFlowFaceConfig
-  @objc final public let videoConfig: IDFlow.IDFlowVideoConfig
-  @objc final public let appearance: IDFlow.IDFlowAppearance
+  @objc public var locale: IDFlow.IDFlowLocale
+  @objc public var entryMode: IDFlow.IDFlowEntryMode
+  @objc public var cameraSelector: IDFlow.IDFlowCameraSelector
+  @objc public var presentationStyle: IDFlow.IDFlowPresentationStyle
+  @objc public var transformation: IDFlow.IDFlowTransformation
+  @objc public var previewConfig: IDFlow.IDFlowPreviewConfig
+  @objc public var documentConfig: IDFlow.IDFlowDocumentConfig
+  @objc public var faceConfig: IDFlow.IDFlowFaceConfig
+  @objc public var videoConfig: IDFlow.IDFlowVideoConfig
+  @objc public var appearance: IDFlow.IDFlowAppearance
   @objc public init(locale: IDFlow.IDFlowLocale = .kyrgyz, entryMode: IDFlow.IDFlowEntryMode = .fullIdent, cameraSelector: IDFlow.IDFlowCameraSelector = .front, presentationStyle: IDFlow.IDFlowPresentationStyle = .sheet, transformation: IDFlow.IDFlowTransformation = .aesCbc, previewConfig: IDFlow.IDFlowPreviewConfig = IDFlowPreviewConfig(), documentConfig: IDFlow.IDFlowDocumentConfig = IDFlowDocumentConfig(), faceConfig: IDFlow.IDFlowFaceConfig = IDFlowFaceConfig(), videoConfig: IDFlow.IDFlowVideoConfig = IDFlowVideoConfig(), appearance: IDFlow.IDFlowAppearance = IDFlowAppearance())
   @objc deinit
 }

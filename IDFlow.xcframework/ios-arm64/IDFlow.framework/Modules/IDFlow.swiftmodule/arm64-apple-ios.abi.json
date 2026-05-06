@@ -4658,7 +4658,6 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigC9uiVariantAA0ab2UiE0Ovp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -4751,7 +4750,6 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigC10isResidentSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -4844,7 +4842,6 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigC06detectB12DuringSelfieSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -4937,7 +4934,6 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigC16countdownEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -5030,7 +5026,6 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigC17flashlightEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -5123,7 +5118,6 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigC18instructionEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -5202,6 +5196,71 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(uiVariant:isResident:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDFlowDocumentConfig",
+                "printedName": "IDFlow.IDFlowDocumentConfig",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDFlowDocumentUiVariant",
+                "printedName": "IDFlow.IDFlowDocumentUiVariant",
+                "hasDefaultArg": true,
+                "usr": "c:@M@IDFlow@E@IDFlowDocumentUiVariant"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig(im)initWithUiVariant:isResident:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:",
+            "mangledName": "$s6IDFlow0A14DocumentConfigC9uiVariant10isResident06detectB12DuringSelfie16countdownEnabled010flashlightL0011instructionL0AcA0ab2UiE0O_S5btcfc",
+            "moduleName": "IDFlow",
+            "objc_name": "initWithUiVariant:isResident:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init()",
             "children": [
               {
@@ -5216,12 +5275,12 @@
             "mangledName": "$s6IDFlow0A14DocumentConfigCACycfc",
             "moduleName": "IDFlow",
             "overriding": true,
+            "implicit": true,
             "objc_name": "init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "AccessControl"
+              "Override"
             ],
             "init_kind": "Designated"
           }
@@ -5235,7 +5294,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -6161,7 +6219,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC19targetDistanceRatio12CoreGraphics7CGFloatVvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6254,7 +6311,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC20faceCropPaddingRatio12CoreGraphics7CGFloatVvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6347,7 +6403,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC22useVideoIdentificationSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6440,7 +6495,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC24progressIndicatorEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6533,7 +6587,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC20reasonMessageEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6626,7 +6679,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC16countdownEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6719,7 +6771,6 @@
             "mangledName": "$s6IDFlow0A10FaceConfigC11infoboxTextSSvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -6798,6 +6849,78 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(targetDistanceRatio:faceCropPaddingRatio:useVideoIdentification:progressIndicatorEnabled:reasonMessageEnabled:countdownEnabled:infoboxText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDFlowFaceConfig",
+                "printedName": "IDFlow.IDFlowFaceConfig",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowFaceConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDFlow@objc(cs)IDFlowFaceConfig(im)initWithTargetDistanceRatio:faceCropPaddingRatio:useVideoIdentification:progressIndicatorEnabled:reasonMessageEnabled:countdownEnabled:infoboxText:",
+            "mangledName": "$s6IDFlow0A10FaceConfigC19targetDistanceRatio015faceCropPaddingF022useVideoIdentification24progressIndicatorEnabled013reasonMessageO009countdownO011infoboxTextAC12CoreGraphics7CGFloatV_AMS4bSStcfc",
+            "moduleName": "IDFlow",
+            "objc_name": "initWithTargetDistanceRatio:faceCropPaddingRatio:useVideoIdentification:progressIndicatorEnabled:reasonMessageEnabled:countdownEnabled:infoboxText:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init()",
             "children": [
               {
@@ -6812,12 +6935,12 @@
             "mangledName": "$s6IDFlow0A10FaceConfigCACycfc",
             "moduleName": "IDFlow",
             "overriding": true,
+            "implicit": true,
             "objc_name": "init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "AccessControl"
+              "Override"
             ],
             "init_kind": "Designated"
           }
@@ -6831,7 +6954,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -7502,7 +7624,6 @@
             "mangledName": "$s6IDFlow0A13PreviewConfigC017showDocumentFrontB0Sbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -7595,7 +7716,6 @@
             "mangledName": "$s6IDFlow0A13PreviewConfigC016showDocumentBackB0Sbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -7688,7 +7808,6 @@
             "mangledName": "$s6IDFlow0A13PreviewConfigC022showSelfieWithDocumentB0Sbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -7767,6 +7886,50 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(showDocumentFrontPreview:showDocumentBackPreview:showSelfieWithDocumentPreview:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDFlowPreviewConfig",
+                "printedName": "IDFlow.IDFlowPreviewConfig",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowPreviewConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDFlow@objc(cs)IDFlowPreviewConfig(im)initWithShowDocumentFrontPreview:showDocumentBackPreview:showSelfieWithDocumentPreview:",
+            "mangledName": "$s6IDFlow0A13PreviewConfigC017showDocumentFrontB00de4BackB00d10SelfieWitheB0ACSb_S2btcfc",
+            "moduleName": "IDFlow",
+            "objc_name": "initWithShowDocumentFrontPreview:showDocumentBackPreview:showSelfieWithDocumentPreview:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init()",
             "children": [
               {
@@ -7781,12 +7944,12 @@
             "mangledName": "$s6IDFlow0A13PreviewConfigCACycfc",
             "moduleName": "IDFlow",
             "overriding": true,
+            "implicit": true,
             "objc_name": "init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "AccessControl"
+              "Override"
             ],
             "init_kind": "Designated"
           }
@@ -7800,7 +7963,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -10207,7 +10369,6 @@
             "mangledName": "$s6IDFlow0A11VideoConfigC9uiVariantAA0ab2UiE0Ovp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -10300,7 +10461,6 @@
             "mangledName": "$s6IDFlow0A11VideoConfigC16enableMicrophoneSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -10393,7 +10553,6 @@
             "mangledName": "$s6IDFlow0A11VideoConfigC17enableSoundGuidesSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -10486,7 +10645,6 @@
             "mangledName": "$s6IDFlow0A11VideoConfigC16countdownEnabledSbvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -10563,97 +10721,55 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "exitConfirmationEnabled",
-            "printedName": "exitConfirmationEnabled",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(uiVariant:enableMicrophone:enableSoundGuides:countdownEnabled:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDFlowVideoConfig",
+                "printedName": "IDFlow.IDFlowVideoConfig",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowVideoConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDFlowVideoUiVariant",
+                "printedName": "IDFlow.IDFlowVideoUiVariant",
+                "hasDefaultArg": true,
+                "usr": "c:@M@IDFlow@E@IDFlowVideoUiVariant"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
-            "declKind": "Var",
-            "usr": "c:@M@IDFlow@objc(cs)IDFlowVideoConfig(py)exitConfirmationEnabled",
-            "mangledName": "$s6IDFlow0A11VideoConfigC23exitConfirmationEnabledSbvp",
+            "declKind": "Constructor",
+            "usr": "c:@M@IDFlow@objc(cs)IDFlowVideoConfig(im)initWithUiVariant:enableMicrophone:enableSoundGuides:countdownEnabled:",
+            "mangledName": "$s6IDFlow0A11VideoConfigC9uiVariant16enableMicrophone0F11SoundGuides16countdownEnabledAcA0ab2UiE0O_S3btcfc",
             "moduleName": "IDFlow",
+            "objc_name": "initWithUiVariant:enableMicrophone:enableSoundGuides:countdownEnabled:",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@IDFlow@objc(cs)IDFlowVideoConfig(im)exitConfirmationEnabled",
-                "mangledName": "$s6IDFlow0A11VideoConfigC23exitConfirmationEnabledSbvg",
-                "moduleName": "IDFlow",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@IDFlow@objc(cs)IDFlowVideoConfig(im)setExitConfirmationEnabled:",
-                "mangledName": "$s6IDFlow0A11VideoConfigC23exitConfirmationEnabledSbvs",
-                "moduleName": "IDFlow",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6IDFlow0A11VideoConfigC23exitConfirmationEnabledSbvM",
-                "mangledName": "$s6IDFlow0A11VideoConfigC23exitConfirmationEnabledSbvM",
-                "moduleName": "IDFlow",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -10672,12 +10788,12 @@
             "mangledName": "$s6IDFlow0A11VideoConfigCACycfc",
             "moduleName": "IDFlow",
             "overriding": true,
+            "implicit": true,
             "objc_name": "init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "AccessControl"
+              "Override"
             ],
             "init_kind": "Designated"
           }
@@ -10691,7 +10807,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -11356,12 +11471,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC6localeAA0A6LocaleOvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11382,10 +11495,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowLocale",
+                    "printedName": "IDFlow.IDFlowLocale",
+                    "usr": "c:@M@IDFlow@E@IDFlowLocale"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setLocale:",
+                "mangledName": "$s6IDFlow0A6ConfigC6localeAA0A6LocaleOvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC6localeAA0A6LocaleOvM",
+                "mangledName": "$s6IDFlow0A6ConfigC6localeAA0A6LocaleOvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11406,12 +11563,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC9entryModeAA0a5EntryD0Ovp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11432,10 +11587,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowEntryMode",
+                    "printedName": "IDFlow.IDFlowEntryMode",
+                    "usr": "c:@M@IDFlow@E@IDFlowEntryMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setEntryMode:",
+                "mangledName": "$s6IDFlow0A6ConfigC9entryModeAA0a5EntryD0Ovs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC9entryModeAA0a5EntryD0OvM",
+                "mangledName": "$s6IDFlow0A6ConfigC9entryModeAA0a5EntryD0OvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11456,12 +11655,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC14cameraSelectorAA0a6CameraD0Ovp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11482,10 +11679,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowCameraSelector",
+                    "printedName": "IDFlow.IDFlowCameraSelector",
+                    "usr": "c:@M@IDFlow@E@IDFlowCameraSelector"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setCameraSelector:",
+                "mangledName": "$s6IDFlow0A6ConfigC14cameraSelectorAA0a6CameraD0Ovs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC14cameraSelectorAA0a6CameraD0OvM",
+                "mangledName": "$s6IDFlow0A6ConfigC14cameraSelectorAA0a6CameraD0OvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11506,12 +11747,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC17presentationStyleAA0a12PresentationD0Ovp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11532,10 +11771,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowPresentationStyle",
+                    "printedName": "IDFlow.IDFlowPresentationStyle",
+                    "usr": "c:@M@IDFlow@E@IDFlowPresentationStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setPresentationStyle:",
+                "mangledName": "$s6IDFlow0A6ConfigC17presentationStyleAA0a12PresentationD0Ovs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC17presentationStyleAA0a12PresentationD0OvM",
+                "mangledName": "$s6IDFlow0A6ConfigC17presentationStyleAA0a12PresentationD0OvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11556,12 +11839,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC14transformationAA0A14TransformationOvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11582,10 +11863,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowTransformation",
+                    "printedName": "IDFlow.IDFlowTransformation",
+                    "usr": "c:@M@IDFlow@E@IDFlowTransformation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setTransformation:",
+                "mangledName": "$s6IDFlow0A6ConfigC14transformationAA0A14TransformationOvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC14transformationAA0A14TransformationOvM",
+                "mangledName": "$s6IDFlow0A6ConfigC14transformationAA0A14TransformationOvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11606,12 +11931,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC07previewB0AA0a7PreviewB0Cvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11632,10 +11955,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowPreviewConfig",
+                    "printedName": "IDFlow.IDFlowPreviewConfig",
+                    "usr": "c:@M@IDFlow@objc(cs)IDFlowPreviewConfig"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setPreviewConfig:",
+                "mangledName": "$s6IDFlow0A6ConfigC07previewB0AA0a7PreviewB0Cvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC07previewB0AA0a7PreviewB0CvM",
+                "mangledName": "$s6IDFlow0A6ConfigC07previewB0AA0a7PreviewB0CvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11656,12 +12023,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC08documentB0AA0a8DocumentB0Cvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11682,10 +12047,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowDocumentConfig",
+                    "printedName": "IDFlow.IDFlowDocumentConfig",
+                    "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setDocumentConfig:",
+                "mangledName": "$s6IDFlow0A6ConfigC08documentB0AA0a8DocumentB0Cvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC08documentB0AA0a8DocumentB0CvM",
+                "mangledName": "$s6IDFlow0A6ConfigC08documentB0AA0a8DocumentB0CvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11706,12 +12115,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC04faceB0AA0a4FaceB0Cvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11732,10 +12139,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowFaceConfig",
+                    "printedName": "IDFlow.IDFlowFaceConfig",
+                    "usr": "c:@M@IDFlow@objc(cs)IDFlowFaceConfig"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setFaceConfig:",
+                "mangledName": "$s6IDFlow0A6ConfigC04faceB0AA0a4FaceB0Cvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC04faceB0AA0a4FaceB0CvM",
+                "mangledName": "$s6IDFlow0A6ConfigC04faceB0AA0a4FaceB0CvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11756,12 +12207,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC05videoB0AA0a5VideoB0Cvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11782,10 +12231,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowVideoConfig",
+                    "printedName": "IDFlow.IDFlowVideoConfig",
+                    "usr": "c:@M@IDFlow@objc(cs)IDFlowVideoConfig"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setVideoConfig:",
+                "mangledName": "$s6IDFlow0A6ConfigC05videoB0AA0a5VideoB0Cvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC05videoB0AA0a5VideoB0CvM",
+                "mangledName": "$s6IDFlow0A6ConfigC05videoB0AA0a5VideoB0CvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -11806,12 +12299,10 @@
             "mangledName": "$s6IDFlow0A6ConfigC10appearanceAA0A10AppearanceCvp",
             "moduleName": "IDFlow",
             "declAttributes": [
-              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -11832,10 +12323,54 @@
                 "moduleName": "IDFlow",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDFlowAppearance",
+                    "printedName": "IDFlow.IDFlowAppearance",
+                    "usr": "c:@M@IDFlow@objc(cs)IDFlowAppearance"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowConfig(im)setAppearance:",
+                "mangledName": "$s6IDFlow0A6ConfigC10appearanceAA0A10AppearanceCvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A6ConfigC10appearanceAA0A10AppearanceCvM",
+                "mangledName": "$s6IDFlow0A6ConfigC10appearanceAA0A10AppearanceCvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -12990,35 +13525,35 @@
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 250,
+      "offset": 532,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 311,
+      "offset": 581,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 362,
+      "offset": 620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 415,
+      "offset": 661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 468,
+      "offset": 702,
       "length": 4,
       "value": "true"
     },
@@ -13074,49 +13609,49 @@
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 186,
+      "offset": 533,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 243,
+      "offset": 578,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 299,
+      "offset": 622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 359,
+      "offset": 670,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 414,
+      "offset": 713,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 465,
+      "offset": 752,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowFaceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 513,
+      "offset": 788,
       "length": 2,
       "value": "\"\""
     },
@@ -13172,21 +13707,21 @@
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowPreviewConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 194,
+      "offset": 365,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowPreviewConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 253,
+      "offset": 412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowPreviewConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 318,
+      "offset": 465,
       "length": 5,
       "value": "false"
     },
@@ -13249,30 +13784,23 @@
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowVideoConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 247,
+      "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowVideoConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 300,
+      "offset": 473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowVideoConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 352,
+      "offset": 513,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowVideoConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 410,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowVideoUiVariant.swift",
@@ -14110,7 +14638,7 @@
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Box\/idflow-ios-sdk\/IDFlow\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 24689,
+      "offset": 25076,
       "length": 4,
       "value": "true"
     },
