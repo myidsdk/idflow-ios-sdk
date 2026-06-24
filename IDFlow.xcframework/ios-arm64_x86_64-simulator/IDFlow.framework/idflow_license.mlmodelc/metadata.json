@@ -2,13 +2,13 @@
   {
     "metadataOutputVersion" : "3.0",
     "userDefinedMetadata" : {
+      "IoU threshold" : "0.45",
       "stride" : "32",
       "Confidence threshold" : "0.25",
-      "IoU threshold" : "0.45",
       "docs" : "https:\/\/docs.ultralytics.com",
       "task" : "detect",
-      "date" : "2024-04-13T19:02:20.781683",
       "imgsz" : "[640, 640]",
+      "date" : "2024-04-13T19:02:20.781683",
       "batch" : "1",
       "names" : "{0: 'custom_id', 1: 'kyrgyz_blazon', 2: 'kyrgyz_emblem', 3: 'kyrgyz_id', 4: 'kyrgyz_map', 5: 'kyrgyz_passport', 6: 'kyrgyz_passport_mark'}"
     },

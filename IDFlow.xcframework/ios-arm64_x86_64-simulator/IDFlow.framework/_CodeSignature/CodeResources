@@ -8,6 +8,10 @@
 		<data>
 		OUoVlWDh+56kdzEqLgtGxy7ypNs=
 		</data>
+		<key>Headers/IDFlow-Swift.h</key>
+		<data>
+		nltJki7+CLcy3diZCXWTaqMWf4U=
+		</data>
 		<key>Headers/IDFlow.h</key>
 		<data>
 		DrGxTyqukwtHl7dTelONRlRZlcc=
@@ -22,7 +26,7 @@
 		</data>
 		<key>Modules/IDFlow.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nWE0fSNfHhVzPG1ANrVIPsLpvdk=
+		SPxvrWEswK3bJSPGoa6/ehugBaA=
 		</data>
 		<key>Modules/IDFlow.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Modules/IDFlow.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nWE0fSNfHhVzPG1ANrVIPsLpvdk=
+		SPxvrWEswK3bJSPGoa6/ehugBaA=
 		</data>
 		<key>Modules/IDFlow.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Modules/IDFlow.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Is2/VvwBx/jMgATdhy8nUHYYrNo=
+		k9H0EP2mtIsphTOZVSV/OS9oybk=
 		</data>
 		<key>Modules/IDFlow.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +54,7 @@
 		</data>
 		<key>Modules/IDFlow.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Is2/VvwBx/jMgATdhy8nUHYYrNo=
+		k9H0EP2mtIsphTOZVSV/OS9oybk=
 		</data>
 		<key>Modules/IDFlow.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
@@ -94,11 +98,11 @@
 		</data>
 		<key>idflow_license.mlmodelc/coremldata.bin</key>
 		<data>
-		q4+PT4QhBLlCWmu8+oYVC2iaigY=
+		L2QiAEcXAb4amjAVofkUfyZyetM=
 		</data>
 		<key>idflow_license.mlmodelc/metadata.json</key>
 		<data>
-		NRc12gjzg9rP0VvNjz/Rqt4k2jQ=
+		49O2gm7jgLx9IAgkxjoE9JEha3I=
 		</data>
 		<key>idflow_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -106,7 +110,7 @@
 		</data>
 		<key>idflow_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		/69kiYS/LHPcy47tLGBKR9j7doY=
+		lYpiPyxz3lDFXo7h2geQnqjMNbI=
 		</data>
 		<key>idflow_license.mlmodelc/model0/model.mil</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>idflow_segmentation.mlmodelc/coremldata.bin</key>
 		<data>
-		T6uXfqbEf7UusGIfE3CLGesgPjo=
+		yGusMJI2WvanHide8LlwEakjEK8=
 		</data>
 		<key>idflow_segmentation.mlmodelc/metadata.json</key>
 		<data>
@@ -166,6 +170,13 @@
 			biEc6tV+5cSik099y2WbzB8yRxvoWRiQA9zTiLLff1E=
 			</data>
 		</dict>
+		<key>Headers/IDFlow-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mOyD6hLoxqc3GEVqEgsokFax8+zu+cff8uroGpkB1ro=
+			</data>
+		</dict>
 		<key>Headers/IDFlow.h</key>
 		<dict>
 			<key>hash2</key>
@@ -184,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMfDFYUFeuiD0O+MKVIpWzUKkcyFlzLTjJ+w3G09i+k=
+			5vczJXrZV7puRUjkZTpXWYXU4OzGeGmBaj9mXRYoklA=
 			</data>
 		</dict>
 		<key>Modules/IDFlow.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -198,7 +209,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMfDFYUFeuiD0O+MKVIpWzUKkcyFlzLTjJ+w3G09i+k=
+			5vczJXrZV7puRUjkZTpXWYXU4OzGeGmBaj9mXRYoklA=
 			</data>
 		</dict>
 		<key>Modules/IDFlow.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
@@ -219,7 +230,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GxQqpMlwTMvUqtKJYdidY/ATAnfrvlhBjLksePVlySE=
+			5l8j97vwNJ4Nmup+E3rhYjYTH+vnj1vDoul/acaq25s=
 			</data>
 		</dict>
 		<key>Modules/IDFlow.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -233,7 +244,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GxQqpMlwTMvUqtKJYdidY/ATAnfrvlhBjLksePVlySE=
+			5l8j97vwNJ4Nmup+E3rhYjYTH+vnj1vDoul/acaq25s=
 			</data>
 		</dict>
 		<key>Modules/IDFlow.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
@@ -310,14 +321,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMsPpL48s/d46fMBljKbrRcTJBQWnNMMonqKLk5R4bQ=
+			UFIkIZ7DSZeSJk3DpKwZh5kKjtqddE95ZFcajkN7GGc=
 			</data>
 		</dict>
 		<key>idflow_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TZ4rTftgOywCrLZhn40b1plK9gG4uFqVqYwCC9OPb9I=
+			bRA5dEUVjVhyDuMyRJMUBsxTuRwpxz6uHIATodCo+8c=
 			</data>
 		</dict>
 		<key>idflow_license.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -331,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7M5RHTBl9xa/2jfomhpEGPWao2Qv3bQnXKVVmi45rOo=
+			+z82Kd75rKx3a5pHCwO8xfCtT8LWruLqIwacOgEXCyk=
 			</data>
 		</dict>
 		<key>idflow_license.mlmodelc/model0/model.mil</key>
@@ -394,7 +405,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CYyk4g46x5A/Vt4CT7dFV7mX+OctU6nKAtos4jCDRPM=
+			Q4673zolzKvXLTmrCG7F0yQU4OoBlqcM+XvXWP6xrRg=
 			</data>
 		</dict>
 		<key>idflow_segmentation.mlmodelc/metadata.json</key>
