@@ -2,8 +2,8 @@
   {
     "metadataOutputVersion" : "3.0",
     "userDefinedMetadata" : {
-      "IoU threshold" : "0.45",
       "stride" : "32",
+      "IoU threshold" : "0.45",
       "Confidence threshold" : "0.25",
       "docs" : "https:\/\/docs.ultralytics.com",
       "task" : "detect",
