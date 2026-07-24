@@ -424,11 +424,12 @@ SWIFT_CLASS("_TtC6IDFlow20IDFlowDocumentConfig")
 @interface IDFlowDocumentConfig : NSObject
 @property (nonatomic) enum IDFlowDocumentUiVariant uiVariant;
 @property (nonatomic) BOOL isResident;
+@property (nonatomic) BOOL documentEditEnabled;
 @property (nonatomic) BOOL detectDocumentDuringSelfie;
 @property (nonatomic) BOOL countdownEnabled;
 @property (nonatomic) BOOL flashlightEnabled;
 @property (nonatomic) BOOL instructionEnabled;
-- (nonnull instancetype)initWithUiVariant:(enum IDFlowDocumentUiVariant)uiVariant isResident:(BOOL)isResident detectDocumentDuringSelfie:(BOOL)detectDocumentDuringSelfie countdownEnabled:(BOOL)countdownEnabled flashlightEnabled:(BOOL)flashlightEnabled instructionEnabled:(BOOL)instructionEnabled OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUiVariant:(enum IDFlowDocumentUiVariant)uiVariant isResident:(BOOL)isResident documentEditEnabled:(BOOL)documentEditEnabled detectDocumentDuringSelfie:(BOOL)detectDocumentDuringSelfie countdownEnabled:(BOOL)countdownEnabled flashlightEnabled:(BOOL)flashlightEnabled instructionEnabled:(BOOL)instructionEnabled OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

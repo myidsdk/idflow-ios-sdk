@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "IDFlow"
-  spec.version            = "1.0.3"
+  spec.version            = "1.0.4"
   spec.platform = :ios, '14.0'
   spec.ios.deployment_target = '14.0'
   spec.summary            = "IDFlow Framework"

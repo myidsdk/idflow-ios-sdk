@@ -82,11 +82,12 @@ import _SwiftConcurrencyShims
 @objc public class IDFlowDocumentConfig : ObjectiveC.NSObject {
   @objc public var uiVariant: IDFlow.IDFlowDocumentUiVariant
   @objc public var isResident: Swift.Bool
+  @objc public var documentEditEnabled: Swift.Bool
   @objc public var detectDocumentDuringSelfie: Swift.Bool
   @objc public var countdownEnabled: Swift.Bool
   @objc public var flashlightEnabled: Swift.Bool
   @objc public var instructionEnabled: Swift.Bool
-  @objc public init(uiVariant: IDFlow.IDFlowDocumentUiVariant = .variant1, isResident: Swift.Bool = true, detectDocumentDuringSelfie: Swift.Bool = true, countdownEnabled: Swift.Bool = false, flashlightEnabled: Swift.Bool = true, instructionEnabled: Swift.Bool = true)
+  @objc public init(uiVariant: IDFlow.IDFlowDocumentUiVariant = .variant1, isResident: Swift.Bool = true, documentEditEnabled: Swift.Bool = false, detectDocumentDuringSelfie: Swift.Bool = true, countdownEnabled: Swift.Bool = false, flashlightEnabled: Swift.Bool = true, instructionEnabled: Swift.Bool = true)
   @objc deinit
 }
 @objc public enum IDFlowDocumentUiVariant : Swift.Int {

@@ -4827,6 +4827,98 @@
           },
           {
             "kind": "Var",
+            "name": "documentEditEnabled",
+            "printedName": "documentEditEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig(py)documentEditEnabled",
+            "mangledName": "$s6IDFlow0A14DocumentConfigC19documentEditEnabledSbvp",
+            "moduleName": "IDFlow",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig(im)documentEditEnabled",
+                "mangledName": "$s6IDFlow0A14DocumentConfigC19documentEditEnabledSbvg",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig(im)setDocumentEditEnabled:",
+                "mangledName": "$s6IDFlow0A14DocumentConfigC19documentEditEnabledSbvs",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IDFlow0A14DocumentConfigC19documentEditEnabledSbvM",
+                "mangledName": "$s6IDFlow0A14DocumentConfigC19documentEditEnabledSbvM",
+                "moduleName": "IDFlow",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "detectDocumentDuringSelfie",
             "printedName": "detectDocumentDuringSelfie",
             "children": [
@@ -5196,7 +5288,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(uiVariant:isResident:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:)",
+            "printedName": "init(uiVariant:isResident:documentEditEnabled:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5245,13 +5337,20 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig(im)initWithUiVariant:isResident:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:",
-            "mangledName": "$s6IDFlow0A14DocumentConfigC9uiVariant10isResident06detectB12DuringSelfie16countdownEnabled010flashlightL0011instructionL0AcA0ab2UiE0O_S5btcfc",
+            "usr": "c:@M@IDFlow@objc(cs)IDFlowDocumentConfig(im)initWithUiVariant:isResident:documentEditEnabled:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:",
+            "mangledName": "$s6IDFlow0A14DocumentConfigC9uiVariant10isResident19documentEditEnabled06detectB12DuringSelfie09countdownJ0010flashlightJ0011instructionJ0AcA0ab2UiE0O_S6btcfc",
             "moduleName": "IDFlow",
-            "objc_name": "initWithUiVariant:isResident:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:",
+            "objc_name": "initWithUiVariant:isResident:documentEditEnabled:detectDocumentDuringSelfie:countdownEnabled:flashlightEnabled:instructionEnabled:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -13638,35 +13737,42 @@
     {
       "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 532,
+      "offset": 579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 581,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 621,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 661,
+      "offset": 671,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 702,
+      "offset": 710,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 751,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/idflow-android-sdk\/idflow-ios-sdk\/IDFlow\/Capture\/Model\/IDFlowDocumentConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 792,
       "length": 4,
       "value": "true"
     },
