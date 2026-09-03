@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDFlow
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDFlow
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import CoreGraphics
 import CoreML
@@ -71,9 +71,7 @@ import _SwiftConcurrencyShims
 @objc public enum IDFlowCameraSelector : Swift.Int {
   case front = 0
   case back
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -84,18 +82,17 @@ import _SwiftConcurrencyShims
   @objc public var isResident: Swift.Bool
   @objc public var documentEditEnabled: Swift.Bool
   @objc public var detectDocumentDuringSelfie: Swift.Bool
+  @objc public var documentCropEnabled: Swift.Bool
   @objc public var countdownEnabled: Swift.Bool
   @objc public var flashlightEnabled: Swift.Bool
   @objc public var instructionEnabled: Swift.Bool
-  @objc public init(uiVariant: IDFlow.IDFlowDocumentUiVariant = .variant1, isResident: Swift.Bool = true, documentEditEnabled: Swift.Bool = false, detectDocumentDuringSelfie: Swift.Bool = true, countdownEnabled: Swift.Bool = false, flashlightEnabled: Swift.Bool = true, instructionEnabled: Swift.Bool = true)
+  @objc public init(uiVariant: IDFlow.IDFlowDocumentUiVariant = .variant1, isResident: Swift.Bool = true, documentEditEnabled: Swift.Bool = false, detectDocumentDuringSelfie: Swift.Bool = true, documentCropEnabled: Swift.Bool = false, countdownEnabled: Swift.Bool = false, flashlightEnabled: Swift.Bool = true, instructionEnabled: Swift.Bool = true)
   @objc deinit
 }
 @objc public enum IDFlowDocumentUiVariant : Swift.Int {
   case variant1 = 0
   case variant2
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -107,9 +104,7 @@ import _SwiftConcurrencyShims
   case selfieWithDocument
   case documentOnly
   case selfieOnly
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -125,11 +120,12 @@ import _SwiftConcurrencyShims
   @objc public var targetDistanceRatio: CoreFoundation.CGFloat
   @objc public var faceCropPaddingRatio: CoreFoundation.CGFloat
   @objc public var useVideoIdentification: Swift.Bool
+  @objc public var useActiveLiveness: Swift.Bool
   @objc public var progressIndicatorEnabled: Swift.Bool
   @objc public var reasonMessageEnabled: Swift.Bool
   @objc public var countdownEnabled: Swift.Bool
   @objc public var infoboxText: Swift.String
-  @objc public init(targetDistanceRatio: CoreFoundation.CGFloat = 0.6, faceCropPaddingRatio: CoreFoundation.CGFloat = 0.5, useVideoIdentification: Swift.Bool = false, progressIndicatorEnabled: Swift.Bool = true, reasonMessageEnabled: Swift.Bool = true, countdownEnabled: Swift.Bool = true, infoboxText: Swift.String = "")
+  @objc public init(targetDistanceRatio: CoreFoundation.CGFloat = 0.6, faceCropPaddingRatio: CoreFoundation.CGFloat = 0.5, useVideoIdentification: Swift.Bool = false, useActiveLiveness: Swift.Bool = false, progressIndicatorEnabled: Swift.Bool = true, reasonMessageEnabled: Swift.Bool = true, countdownEnabled: Swift.Bool = true, infoboxText: Swift.String = "")
   @objc deinit
 }
 @objc public enum IDFlowLocale : Swift.Int {
@@ -138,9 +134,7 @@ import _SwiftConcurrencyShims
   case russian
   case chinese
   case romanian
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -149,9 +143,7 @@ import _SwiftConcurrencyShims
 @objc public enum IDFlowPresentationStyle : Swift.Int {
   case full = 0
   case sheet
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -173,9 +165,7 @@ import _SwiftConcurrencyShims
   @objc final public let expiryDate: Swift.String
   @objc final public let countryCode: Swift.String
   @objc final public let mrz: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(pinfl: Swift.String? = nil, document: Swift.String? = nil, lastName: Swift.String? = nil, firstName: Swift.String? = nil, birthDate: Swift.String? = nil, expiryDate: Swift.String? = nil, countryCode: Swift.String? = nil, mrz: Swift.String? = nil)
-  #endif
   @objc deinit
 }
 @objc public class IDFlowFieldResult : ObjectiveC.NSObject {
@@ -197,20 +187,18 @@ import _SwiftConcurrencyShims
   @objc final public let documentFace: UIKit.UIImage?
   @objc final public let documentFront: UIKit.UIImage?
   @objc final public let documentBack: UIKit.UIImage?
+  @objc final public let documentFrontCropped: UIKit.UIImage?
+  @objc final public let documentBackCropped: UIKit.UIImage?
   @objc final public let faceData: Swift.String?
   @objc final public let videoURL: Foundation.URL?
   @objc final public let isFaceOccluded: Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init(documentResult: IDFlow.IDFlowDocumentResult? = nil, editableDocumentResult: IDFlow.IDFlowDocumentResult? = nil, personalNumber: Swift.String = "", idSeriesNumber: Swift.String = "", tin: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), passport: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), selfie: UIKit.UIImage? = nil, selfieWithDocument: UIKit.UIImage? = nil, documentFace: UIKit.UIImage? = nil, documentFront: UIKit.UIImage? = nil, documentBack: UIKit.UIImage? = nil, faceData: Swift.String? = nil, videoURL: Foundation.URL? = nil, isFaceOccluded: Swift.Bool = false)
-  #endif
+  @objc public init(documentResult: IDFlow.IDFlowDocumentResult? = nil, editableDocumentResult: IDFlow.IDFlowDocumentResult? = nil, personalNumber: Swift.String = "", idSeriesNumber: Swift.String = "", tin: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), passport: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), selfie: UIKit.UIImage? = nil, selfieWithDocument: UIKit.UIImage? = nil, documentFace: UIKit.UIImage? = nil, documentFront: UIKit.UIImage? = nil, documentBack: UIKit.UIImage? = nil, documentFrontCropped: UIKit.UIImage? = nil, documentBackCropped: UIKit.UIImage? = nil, faceData: Swift.String? = nil, videoURL: Foundation.URL? = nil, isFaceOccluded: Swift.Bool = false)
   @objc deinit
 }
 @objc public enum IDFlowTransformation : Swift.Int {
   case aesGcm = 0
   case aesCbc = 1
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -227,9 +215,7 @@ import _SwiftConcurrencyShims
 @objc public enum IDFlowVideoUiVariant : Swift.Int {
   case variant1 = 0
   case variant2 = 1
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
