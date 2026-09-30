@@ -7,7 +7,6 @@ import CoreGraphics
 import CoreML
 import DeveloperToolsSupport
 import Foundation
-import MediaPipeTasksVision
 import Swift
 import SwiftUI
 import UIKit
@@ -154,7 +153,8 @@ import _SwiftConcurrencyShims
   @objc public var showDocumentFrontPreview: Swift.Bool
   @objc public var showDocumentBackPreview: Swift.Bool
   @objc public var showSelfieWithDocumentPreview: Swift.Bool
-  @objc public init(showDocumentFrontPreview: Swift.Bool = false, showDocumentBackPreview: Swift.Bool = false, showSelfieWithDocumentPreview: Swift.Bool = false)
+  @objc public var showSelfiePreview: Swift.Bool
+  @objc public init(showDocumentFrontPreview: Swift.Bool = false, showDocumentBackPreview: Swift.Bool = false, showSelfieWithDocumentPreview: Swift.Bool = false, showSelfiePreview: Swift.Bool = false)
   @objc deinit
 }
 @objc public class IDFlowDocumentResult : ObjectiveC.NSObject {
@@ -166,7 +166,9 @@ import _SwiftConcurrencyShims
   @objc final public let expiryDate: Swift.String
   @objc final public let countryCode: Swift.String
   @objc final public let mrz: Swift.String
-  @objc public init(pinfl: Swift.String? = nil, document: Swift.String? = nil, lastName: Swift.String? = nil, firstName: Swift.String? = nil, birthDate: Swift.String? = nil, expiryDate: Swift.String? = nil, countryCode: Swift.String? = nil, mrz: Swift.String? = nil)
+  @objc final public let issueDate: Swift.String
+  @objc final public let issuedBy: Swift.String
+  @objc public init(pinfl: Swift.String? = nil, document: Swift.String? = nil, lastName: Swift.String? = nil, firstName: Swift.String? = nil, birthDate: Swift.String? = nil, expiryDate: Swift.String? = nil, countryCode: Swift.String? = nil, mrz: Swift.String? = nil, issueDate: Swift.String? = nil, issuedBy: Swift.String? = nil)
   @objc deinit
 }
 @objc public class IDFlowFieldResult : ObjectiveC.NSObject {

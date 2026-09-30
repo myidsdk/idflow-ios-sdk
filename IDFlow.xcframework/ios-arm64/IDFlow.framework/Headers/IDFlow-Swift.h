@@ -511,7 +511,9 @@ SWIFT_CLASS("_TtC6IDFlow20IDFlowDocumentResult")
 @property (nonatomic, readonly, copy) NSString * _Nonnull expiryDate;
 @property (nonatomic, readonly, copy) NSString * _Nonnull countryCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull mrz;
-- (nonnull instancetype)initWithPinfl:(NSString * _Nullable)pinfl document:(NSString * _Nullable)document lastName:(NSString * _Nullable)lastName firstName:(NSString * _Nullable)firstName birthDate:(NSString * _Nullable)birthDate expiryDate:(NSString * _Nullable)expiryDate countryCode:(NSString * _Nullable)countryCode mrz:(NSString * _Nullable)mrz OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSString * _Nonnull issueDate;
+@property (nonatomic, readonly, copy) NSString * _Nonnull issuedBy;
+- (nonnull instancetype)initWithPinfl:(NSString * _Nullable)pinfl document:(NSString * _Nullable)document lastName:(NSString * _Nullable)lastName firstName:(NSString * _Nullable)firstName birthDate:(NSString * _Nullable)birthDate expiryDate:(NSString * _Nullable)expiryDate countryCode:(NSString * _Nullable)countryCode mrz:(NSString * _Nullable)mrz issueDate:(NSString * _Nullable)issueDate issuedBy:(NSString * _Nullable)issuedBy OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -581,7 +583,8 @@ SWIFT_CLASS("_TtC6IDFlow19IDFlowPreviewConfig")
 @property (nonatomic) BOOL showDocumentFrontPreview;
 @property (nonatomic) BOOL showDocumentBackPreview;
 @property (nonatomic) BOOL showSelfieWithDocumentPreview;
-- (nonnull instancetype)initWithShowDocumentFrontPreview:(BOOL)showDocumentFrontPreview showDocumentBackPreview:(BOOL)showDocumentBackPreview showSelfieWithDocumentPreview:(BOOL)showSelfieWithDocumentPreview OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic) BOOL showSelfiePreview;
+- (nonnull instancetype)initWithShowDocumentFrontPreview:(BOOL)showDocumentFrontPreview showDocumentBackPreview:(BOOL)showDocumentBackPreview showSelfieWithDocumentPreview:(BOOL)showSelfieWithDocumentPreview showSelfiePreview:(BOOL)showSelfiePreview OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
