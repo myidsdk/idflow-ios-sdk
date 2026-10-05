@@ -5,8 +5,10 @@
 import AVFoundation
 import CoreGraphics
 import CoreML
+import CryptoKit
 import DeveloperToolsSupport
 import Foundation
+import MachO
 import Swift
 import SwiftUI
 import UIKit
@@ -195,7 +197,10 @@ import _SwiftConcurrencyShims
   @objc final public let faceData: Swift.String?
   @objc final public let videoURL: Foundation.URL?
   @objc final public let isFaceOccluded: Swift.Bool
-  @objc public init(documentResult: IDFlow.IDFlowDocumentResult? = nil, editableDocumentResult: IDFlow.IDFlowDocumentResult? = nil, personalNumber: Swift.String = "", idSeriesNumber: Swift.String = "", tin: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), passport: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), selfie: UIKit.UIImage? = nil, selfieWithDocument: UIKit.UIImage? = nil, documentFace: UIKit.UIImage? = nil, documentFront: UIKit.UIImage? = nil, documentBack: UIKit.UIImage? = nil, documentFrontCropped: UIKit.UIImage? = nil, documentBackCropped: UIKit.UIImage? = nil, faceData: Swift.String? = nil, videoURL: Foundation.URL? = nil, isFaceOccluded: Swift.Bool = false)
+  @objc final public let integrityToken: Swift.String?
+  @objc final public let sdkVersion: Swift.String?
+  @objc final public let selfieData: Foundation.Data?
+  @objc public init(documentResult: IDFlow.IDFlowDocumentResult? = nil, editableDocumentResult: IDFlow.IDFlowDocumentResult? = nil, personalNumber: Swift.String = "", idSeriesNumber: Swift.String = "", tin: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), passport: IDFlow.IDFlowFieldResult = IDFlowFieldResult(), selfie: UIKit.UIImage? = nil, selfieWithDocument: UIKit.UIImage? = nil, documentFace: UIKit.UIImage? = nil, documentFront: UIKit.UIImage? = nil, documentBack: UIKit.UIImage? = nil, documentFrontCropped: UIKit.UIImage? = nil, documentBackCropped: UIKit.UIImage? = nil, faceData: Swift.String? = nil, videoURL: Foundation.URL? = nil, isFaceOccluded: Swift.Bool = false, integrityToken: Swift.String? = nil, sdkVersion: Swift.String? = nil, selfieData: Foundation.Data? = nil)
   @objc deinit
 }
 @objc public enum IDFlowTransformation : Swift.Int {

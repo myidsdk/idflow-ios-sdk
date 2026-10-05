@@ -590,6 +590,7 @@ SWIFT_CLASS("_TtC6IDFlow19IDFlowPreviewConfig")
 @end
 
 @class NSURL;
+@class NSData;
 SWIFT_CLASS("_TtC6IDFlow12IDFlowResult")
 @interface IDFlowResult : NSObject
 @property (nonatomic, readonly, strong) IDFlowDocumentResult * _Nonnull documentResult;
@@ -608,7 +609,16 @@ SWIFT_CLASS("_TtC6IDFlow12IDFlowResult")
 @property (nonatomic, readonly, copy) NSString * _Nullable faceData;
 @property (nonatomic, readonly, copy) NSURL * _Nullable videoURL;
 @property (nonatomic, readonly) BOOL isFaceOccluded;
-- (nonnull instancetype)initWithDocumentResult:(IDFlowDocumentResult * _Nullable)documentResult editableDocumentResult:(IDFlowDocumentResult * _Nullable)editableDocumentResult personalNumber:(NSString * _Nonnull)personalNumber idSeriesNumber:(NSString * _Nonnull)idSeriesNumber tin:(IDFlowFieldResult * _Nonnull)tin passport:(IDFlowFieldResult * _Nonnull)passport selfie:(UIImage * _Nullable)selfie selfieWithDocument:(UIImage * _Nullable)selfieWithDocument documentFace:(UIImage * _Nullable)documentFace documentFront:(UIImage * _Nullable)documentFront documentBack:(UIImage * _Nullable)documentBack documentFrontCropped:(UIImage * _Nullable)documentFrontCropped documentBackCropped:(UIImage * _Nullable)documentBackCropped faceData:(NSString * _Nullable)faceData videoURL:(NSURL * _Nullable)videoURL isFaceOccluded:(BOOL)isFaceOccluded OBJC_DESIGNATED_INITIALIZER;
+/// Encrypted integrity envelope, or nil when no biometric screen ran.
+@property (nonatomic, readonly, copy) NSString * _Nullable integrityToken;
+/// SDK version tagged with the biometric mode that ran, e.g. <code>ios-1.0.8-2d</code>.
+/// Nil in the document only flows.
+@property (nonatomic, readonly, copy) NSString * _Nullable sdkVersion;
+/// JPEG bytes the integrity token’s <code>selfie_hash</code> was computed over. Send these
+/// bytes verbatim; re-encoding <code>selfie</code> produces a different hash and the backend
+/// check fails.
+@property (nonatomic, readonly, copy) NSData * _Nullable selfieData;
+- (nonnull instancetype)initWithDocumentResult:(IDFlowDocumentResult * _Nullable)documentResult editableDocumentResult:(IDFlowDocumentResult * _Nullable)editableDocumentResult personalNumber:(NSString * _Nonnull)personalNumber idSeriesNumber:(NSString * _Nonnull)idSeriesNumber tin:(IDFlowFieldResult * _Nonnull)tin passport:(IDFlowFieldResult * _Nonnull)passport selfie:(UIImage * _Nullable)selfie selfieWithDocument:(UIImage * _Nullable)selfieWithDocument documentFace:(UIImage * _Nullable)documentFace documentFront:(UIImage * _Nullable)documentFront documentBack:(UIImage * _Nullable)documentBack documentFrontCropped:(UIImage * _Nullable)documentFrontCropped documentBackCropped:(UIImage * _Nullable)documentBackCropped faceData:(NSString * _Nullable)faceData videoURL:(NSURL * _Nullable)videoURL isFaceOccluded:(BOOL)isFaceOccluded integrityToken:(NSString * _Nullable)integrityToken sdkVersion:(NSString * _Nullable)sdkVersion selfieData:(NSData * _Nullable)selfieData OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1235,6 +1245,7 @@ SWIFT_CLASS("_TtC6IDFlow19IDFlowPreviewConfig")
 @end
 
 @class NSURL;
+@class NSData;
 SWIFT_CLASS("_TtC6IDFlow12IDFlowResult")
 @interface IDFlowResult : NSObject
 @property (nonatomic, readonly, strong) IDFlowDocumentResult * _Nonnull documentResult;
@@ -1253,7 +1264,16 @@ SWIFT_CLASS("_TtC6IDFlow12IDFlowResult")
 @property (nonatomic, readonly, copy) NSString * _Nullable faceData;
 @property (nonatomic, readonly, copy) NSURL * _Nullable videoURL;
 @property (nonatomic, readonly) BOOL isFaceOccluded;
-- (nonnull instancetype)initWithDocumentResult:(IDFlowDocumentResult * _Nullable)documentResult editableDocumentResult:(IDFlowDocumentResult * _Nullable)editableDocumentResult personalNumber:(NSString * _Nonnull)personalNumber idSeriesNumber:(NSString * _Nonnull)idSeriesNumber tin:(IDFlowFieldResult * _Nonnull)tin passport:(IDFlowFieldResult * _Nonnull)passport selfie:(UIImage * _Nullable)selfie selfieWithDocument:(UIImage * _Nullable)selfieWithDocument documentFace:(UIImage * _Nullable)documentFace documentFront:(UIImage * _Nullable)documentFront documentBack:(UIImage * _Nullable)documentBack documentFrontCropped:(UIImage * _Nullable)documentFrontCropped documentBackCropped:(UIImage * _Nullable)documentBackCropped faceData:(NSString * _Nullable)faceData videoURL:(NSURL * _Nullable)videoURL isFaceOccluded:(BOOL)isFaceOccluded OBJC_DESIGNATED_INITIALIZER;
+/// Encrypted integrity envelope, or nil when no biometric screen ran.
+@property (nonatomic, readonly, copy) NSString * _Nullable integrityToken;
+/// SDK version tagged with the biometric mode that ran, e.g. <code>ios-1.0.8-2d</code>.
+/// Nil in the document only flows.
+@property (nonatomic, readonly, copy) NSString * _Nullable sdkVersion;
+/// JPEG bytes the integrity token’s <code>selfie_hash</code> was computed over. Send these
+/// bytes verbatim; re-encoding <code>selfie</code> produces a different hash and the backend
+/// check fails.
+@property (nonatomic, readonly, copy) NSData * _Nullable selfieData;
+- (nonnull instancetype)initWithDocumentResult:(IDFlowDocumentResult * _Nullable)documentResult editableDocumentResult:(IDFlowDocumentResult * _Nullable)editableDocumentResult personalNumber:(NSString * _Nonnull)personalNumber idSeriesNumber:(NSString * _Nonnull)idSeriesNumber tin:(IDFlowFieldResult * _Nonnull)tin passport:(IDFlowFieldResult * _Nonnull)passport selfie:(UIImage * _Nullable)selfie selfieWithDocument:(UIImage * _Nullable)selfieWithDocument documentFace:(UIImage * _Nullable)documentFace documentFront:(UIImage * _Nullable)documentFront documentBack:(UIImage * _Nullable)documentBack documentFrontCropped:(UIImage * _Nullable)documentFrontCropped documentBackCropped:(UIImage * _Nullable)documentBackCropped faceData:(NSString * _Nullable)faceData videoURL:(NSURL * _Nullable)videoURL isFaceOccluded:(BOOL)isFaceOccluded integrityToken:(NSString * _Nullable)integrityToken sdkVersion:(NSString * _Nullable)sdkVersion selfieData:(NSData * _Nullable)selfieData OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
