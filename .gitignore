@@ -1,0 +1,5 @@
+.DS_Store
+IDFlow.xcframework/
+*.xcframework.zip
+.build/
+.swiftpm/
