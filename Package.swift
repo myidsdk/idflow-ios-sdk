@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IDFlow",
-            url: "https://github.com/myidsdk/idflow-ios-sdk/releases/download/1.0.9/IDFlow.xcframework.zip",
-            checksum: "258e5f52f38f381cab615e8d77d51879942d0c7c5616926c1d1b96789af04c08"
+            url: "https://github.com/myidsdk/idflow-ios-sdk/releases/download/1.0.10/IDFlow.xcframework.zip",
+            checksum: "4334860b55a24a1d71aa0547317c58fe42b23aa277c7312250b9f6dcbaa97247"
         )
     ]
 )
